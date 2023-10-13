@@ -281,6 +281,7 @@ h3 {
     background-color: var(--dark-color);
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
 }
 
 .paragraf-botom {
@@ -334,7 +335,6 @@ h3 {
     line-height: 1.2;
     font-size: 20px;
     color: #2E2F42;
-    text-align: center;
 }
 
 h3 {
@@ -383,6 +383,15 @@ h3 {
     padding: 120px 0;
 }
 
+.list-customers {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
 .card-set {
     background-color: #F4F4FD;
     display: flex;
@@ -394,6 +403,10 @@ h3 {
 .list {
     list-style: none;
     background-color: #FFFFFF;
+}
+
+.list-icons {
+    list-style: none;
 }
 
 .information-team {
