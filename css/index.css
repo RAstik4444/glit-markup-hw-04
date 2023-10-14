@@ -284,6 +284,7 @@ h3 {
     background-color: var(--dark-color);
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 156px;
     display: flex;
 }
 
@@ -410,6 +411,8 @@ h3 {
 
 .list-icons {
     list-style: none;
+    display: flex;
+    gap: 16px;
 }
 
 .information-team {
@@ -446,4 +449,10 @@ h3 {
 p.paragraf-botom {
     width: 264px;
     line-height: 24px;
+}
+
+.paragraf-soc-media {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: var(--light-color);
 }
