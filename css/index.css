@@ -180,6 +180,7 @@ h3 {
 
 .filter-button:hover,
 .filter-button:focus {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4);
     background-color: #404BBF;
     color: #FFFFFF;
     border: 1px solid transparent;
@@ -196,8 +197,10 @@ h3 {
     row-gap: 48px;
 }
 
-.portfolio-li {
+.portfolio-li:hover,
+.portfolio-li:focus {
     width: calc((100% - 48px)/3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 .kategories {
