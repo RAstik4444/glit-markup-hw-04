@@ -47,6 +47,7 @@ img {
 
 .headerr {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container-header {
@@ -58,6 +59,11 @@ img {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.container-social {
+    display: flex;
+    align-items: baseline;
 }
 
 .caption-taem {
@@ -92,6 +98,11 @@ img {
     list-style: none;
     padding-left: 0;
 
+}
+
+.section-five {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .punkt-description {
@@ -442,8 +453,31 @@ h3 {
 .list-icons {
     list-style: none;
     display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     gap: 24px;
     margin-bottom: 32px;
+}
+
+.team-media {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-brand-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.team-media:hover,
+.team-media:focus {
+    background-color: var(--pressed-state-color);
+}
+
+.svg-team {
+    fill: var(--light-color);
 }
 
 .footer-list-icons {
@@ -475,6 +509,9 @@ h3 {
 
 .list-team {
     background-color: #ffffff;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .team-job {
@@ -489,7 +526,10 @@ p.paragraf-botom {
 }
 
 .paragraf-soc-media {
+    font-weight: 500;
+    font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--light-color);
+    margin-bottom: 16px;
 }
