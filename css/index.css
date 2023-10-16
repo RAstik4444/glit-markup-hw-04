@@ -315,6 +315,16 @@ h3 {
     display: flex;
 }
 
+.footer-div {
+    display: flex;
+    align-items: baseline;
+}
+
+.container-logo {
+    margin-right: 120px;
+
+}
+
 .paragraf-botom {
     letter-spacing: 0.02em;
     line-height: 1.5;
