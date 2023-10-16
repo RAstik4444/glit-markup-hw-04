@@ -67,9 +67,13 @@ img {
 }
 
 .caption-taem {
-    padding-top: 32px;
-    padding-bottom: 8px;
+    padding: 32px 0;
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-background-color);
     text-align: center;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .section-one {
@@ -415,6 +419,13 @@ h3 {
     line-height: 1.2;
     font-size: 20px;
     color: #2E2F42;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 8px;
 }
 
 h3 {
@@ -470,14 +481,6 @@ h3 {
     margin-top: 8px;
 }
 
-.card-set {
-    background-color: #F4F4FD;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    list-style: none;
-}
-
 .list {
     list-style: none;
     background-color: #FFFFFF;
@@ -485,19 +488,10 @@ h3 {
     padding-left: 0;
 }
 
-.list-icons {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    gap: 24px;
-    margin-bottom: 32px;
-}
-
 .list-icon-li {
     width: 40px;
     height: 40px;
+    background-color: transparent;
 }
 
 .team-media {
@@ -508,7 +502,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    border: none;
 }
 
 .team-media:hover,
@@ -528,18 +522,15 @@ h3 {
 }
 
 .information-team {
-    text-transform: capitalize;
-    letter-spacing: 0.02em;
     text-align: center;
-    line-height: 1.11;
-    font-size: 36px;
-    color: #2E2F42;
     margin-bottom: 72px;
 }
 
 .our-team-ul {
-    display: flex;
+    justify-content: center;
     gap: 24px;
+    display: flex;
+    margin-top: 8px;
 }
 
 .our-team-li {
@@ -547,18 +538,16 @@ h3 {
     border-radius: 0px 0px 4px 4px;
 }
 
-.list-team {
-    background-color: #ffffff;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
 .team-job {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
 }
 
 p.paragraf-botom {
