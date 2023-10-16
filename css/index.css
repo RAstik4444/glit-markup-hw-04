@@ -276,6 +276,7 @@ h3 {
 .link-portfolio {
     text-decoration: none;
     display: block;
+    cursor: pointer;
 }
 
 .link-portfolio:hover,
