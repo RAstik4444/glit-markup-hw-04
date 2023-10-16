@@ -395,6 +395,16 @@ h3 {
     color: #8e8F99;
 }
 
+.client:hover {
+    border-color: #404BBF;
+    color: #404BBF;
+}
+
+.client:focus {
+    border-color: #404BBF;
+    color: #404BBF;
+}
+
 .svg-five {
     fill: currentColor;
 }
