@@ -536,10 +536,8 @@ h3 {
 }
 
 .social-footer-ul {
-    justify-content: center;
-    gap: 24px;
+    gap: 16px;
     display: flex;
-    margin-top: 8px;
 }
 
 .our-team-li {
