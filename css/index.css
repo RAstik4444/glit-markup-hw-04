@@ -518,6 +518,13 @@ h3 {
     margin-top: 8px;
 }
 
+.social-footer-ul {
+    justify-content: center;
+    gap: 24px;
+    display: flex;
+    margin-top: 8px;
+}
+
 .our-team-li {
     width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
@@ -529,6 +536,11 @@ h3 {
 
 .team-info {
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.social-media {
     padding-top: 32px;
     padding-bottom: 32px;
 }
