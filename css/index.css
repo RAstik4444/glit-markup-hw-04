@@ -399,11 +399,7 @@ h3 {
     color: #8e8F99;
 }
 
-.client:hover {
-    border-color: #404BBF;
-    color: #404BBF;
-}
-
+.client:hover,
 .client:focus {
     border-color: #404BBF;
     color: #404BBF;
@@ -420,12 +416,7 @@ h3 {
     font-size: 20px;
     color: #2E2F42;
     margin-bottom: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 8px;
-    padding-bottom: 8px;
 }
 
 h3 {
@@ -483,7 +474,6 @@ h3 {
 
 .list {
     list-style: none;
-    background-color: #FFFFFF;
     margin: 0;
     padding-left: 0;
 }
@@ -521,11 +511,6 @@ h3 {
     margin-top: 16px;
 }
 
-.information-team {
-    text-align: center;
-    margin-bottom: 72px;
-}
-
 .our-team-ul {
     justify-content: center;
     gap: 24px;
@@ -536,18 +521,17 @@ h3 {
 .our-team-li {
     width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+}
+
+.team-info {
+    text-align: center;
 }
 
 .team-job {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 8px;
 }
 
 p.paragraf-botom {
