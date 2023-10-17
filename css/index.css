@@ -500,6 +500,23 @@ h3 {
     background-color: var(--pressed-state-color);
 }
 
+.footer-media {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-brand-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.footer-media:hover,
+.footer-media:focus {
+    background-color: #31d0aa;
+}
+
+
 .svg-team {
     fill: var(--light-color);
 }
